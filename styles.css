@@ -18,16 +18,22 @@ textarea {
     margin-bottom: 10px;
     padding: 10px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin: 5px;
+    margin: 10px;
+    border: 10px;
+    border-radius: 10px;
+
+    
 }
 
 button:disabled {
-    opacity: 0.6;
+    opacity: 1;
+    border-radius: 10px;
     cursor: not-allowed;
 }
